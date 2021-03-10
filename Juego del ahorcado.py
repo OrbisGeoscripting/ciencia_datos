@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
+# 
 """
-Created on Thu Nov 26 13:02:40 2020
-
-@author: ASUS
+Orbis Geoscripting
 """
 import random
 
@@ -11,8 +9,9 @@ print("\nBienvenido, "+nombre,"\nEs hora de jugar")
 print(" ")
 print("\n¡Comienza a adivinar!")
 
-with open(r'C:\Users\ASUS\Documents\Python\Diplomado\Git - Github\Ejercicio remotos\palabras-master', 'r', encoding="utf8") as f:
+with open(r'\palabras-master\listado-general.txt', 'r', encoding="utf8") as f:
     palabra = [line.strip() for line in f]
+
 palabras = random.choice(palabra)
 tupalabra=" "
 vidas= 5
