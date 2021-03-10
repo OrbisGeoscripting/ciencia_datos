@@ -9,7 +9,7 @@ print("\nBienvenido, "+nombre,"\nEs hora de jugar")
 print(" ")
 print("\n¡Comienza a adivinar!")
 
-with open(r'\palabras-master\listado-general.txt', 'r', encoding="utf8") as f:
+with open(r'palabras-master\listado-general.txt', 'r', encoding="utf8") as f:
     palabra = [line.strip() for line in f]
 
 palabras = random.choice(palabra)
