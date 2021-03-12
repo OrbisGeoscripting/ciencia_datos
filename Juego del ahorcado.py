@@ -14,7 +14,8 @@ with open(r'palabras-master\listado-general.txt', 'r', encoding="utf8") as f:
 
 palabras = random.choice(palabra)
 tupalabra=" "
-vidas= 5
+#Queda solo con 3 vidas, algo clasico
+vidas= 3 
 
 while vidas > 0:
     fallas=0
